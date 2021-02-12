@@ -2,8 +2,7 @@ init()
 
 function init() {
   var url = "https://api.covid19api.com/summary"
-  var link = "https://api.covid19api.com/total/dayone/country/Uzbekistan"
-
+  
   $.get(url, function(data) {
     console.log(data.Global)
 
